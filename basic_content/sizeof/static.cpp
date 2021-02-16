@@ -27,7 +27,7 @@ int main()
     /**
      * @brief 16  字节对齐、静态变量不影响类的大小、vptr指针=8
      */
-    cout<<sizeof(A)<<endl; 
+    cout<<sizeof(A)<<endl;
 
     return 0;
 }

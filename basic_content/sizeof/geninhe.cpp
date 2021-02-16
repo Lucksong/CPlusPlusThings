@@ -43,13 +43,17 @@ class A1
 {
     virtual void fun(){}
 };
-class C1:public A
+class C1:public A1
 {
 };
 
 
 int main()
 {
+    cout<<sizeof(char)<<endl;
+    cout<<sizeof(int)<<endl;
+    cout<<sizeof(short)<<endl;
+    cout<<sizeof(long)<<endl;
     cout<<sizeof(A)<<endl; // 8
     cout<<sizeof(B)<<endl; // 24
     cout<<sizeof(C)<<endl; // 12
